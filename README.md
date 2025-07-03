@@ -34,17 +34,18 @@ O Sistema de Vigilância de Fatores de Risco Comportamentais (BRFSS) é uma pesq
 
 ## Configuração do ambiente
 
-1. Faça o clone do repositório que será criado a partir deste modelo.
+
+1. Faça o clone do repositório.
 
     ```bash
-    git clone ENDERECO_DO_REPOSITORIO
+    git clone git@github.com:marcelochioca12/Projeto_modelo.git
     ```
 
-2. Crie um ambiente virtual para o seu projeto utilizando o gerenciador de ambientes de sua preferência.
+2. Crie um ambiente virtual para o seu projeto utilizando o conda de ambientes de sua preferência.
 
 
       ```bash
-      conda env export > ambiente.yml
+      conda env create -f ambiente.yml --name estatistica
       ```
 
 ## Um pouco mais sobre a base
